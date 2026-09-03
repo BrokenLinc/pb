@@ -15,6 +15,7 @@ import nikayla from "../images/pb-nikayla.webp";
 import sanders from "../images/pb-sanders-2.webp";
 import linc1 from "../images/linc-1.webp";
 import linc2 from "../images/linc-2.webp";
+import andrea from "../images/pb-andrea.webp";
 
 export type StackImageData = {
   src: string;
@@ -66,6 +67,13 @@ export const images: StackImageData[] = [
     height: 1400,
     ratio: 1400 / 1400,
     alt: "Linc 2",
+  },
+  {
+    src: andrea,
+    width: 857,
+    height: 500,
+    ratio: 857 / 500,
+    alt: "Andrea",
   },
   {
     src: nyssa,
